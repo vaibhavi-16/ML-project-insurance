@@ -21,7 +21,9 @@ _ Data source _: https://www.kaggle.com/noordeen/insurance-premium-prediction
 
 -Next, tried with various tree based models, performed hyper parameter tuning using the GridSearchCV and found the best hyperparameters for each model. Then, picked the top most features as per the feature importance by an each model. Models, evaluated on both the training and testing data and recorded the performance metrics.
 
--Based on the performance metrics of both the linear and the tree based models, XGBoost regressor performed the best, followed by the random forest regressor. 4.Deployment: Deployed the XGBoost regressor model using Flask, which works in the backend part while for the frontend UI Web page, used HTML5.
+-Based on the performance metrics of both the linear and the tree based models, XGBoost regressor performed the best, followed by the random forest regressor.
+
+4.Deployment: Deployed the XGBoost regressor model using Flask, which works in the backend part while for the frontend UI Web page, used HTML5.
 
 -At each step in both development and deployment parts, logging operation is performed which are stored in the Jupyter_Notebook_logs.log and app_deployment_logs.log files respectively
 
