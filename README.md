@@ -31,7 +31,8 @@ _ Data source _: https://www.kaggle.com/noordeen/insurance-premium-prediction
 So, now we can find the insurance premium quickly by just passing the mentioned details as an input to the web application 😊
 
 # Web Deployment
-Deployed on web using Heroku (PaaS) url: 
+Deployed on web using Heroku (PaaS) url: https://mlprojectinuron.herokuapp.com
+
 
 # Screenshots
 ![image](https://user-images.githubusercontent.com/73634081/143826759-34bc5619-e830-42ea-b3a7-97f790e21932.png)
