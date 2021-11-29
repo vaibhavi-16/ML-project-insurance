@@ -39,11 +39,11 @@ Deployed on web using Heroku (PaaS) url: https://mlprojectinuron.herokuapp.com
 # Tools and Technologies used
 ![image](https://user-images.githubusercontent.com/73634081/143826962-8d0285e7-bbb5-4a03-a62d-9272efffd05c.png)
 # High Level Design:
-URL: https://drive.google.com/file/d/1KfWwpXba771_8cPnGachbaM_7qTgQUv2/view?usp=sharing
+URL:  https://drive.google.com/file/d/1KfWwpXba771_8cPnGachbaM_7qTgQUv2/view?usp=sharing
 
 
 # Low Level Design:
-URL:https://drive.google.com/file/d/1mwkYgyuqUinfNIV2-nmbbAQFH-pTJQT0/view?usp=sharing
+URL:  https://drive.google.com/file/d/1mwkYgyuqUinfNIV2-nmbbAQFH-pTJQT0/view?usp=sharing
 
 
 # Architecture:
