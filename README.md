@@ -1,2 +1,2 @@
-# ML-project-insurance
-Insurance Premium Prediction:
+# Insurance Premium Prediction:
+
