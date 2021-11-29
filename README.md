@@ -7,16 +7,24 @@ _ Data source _: https://www.kaggle.com/noordeen/insurance-premium-prediction
 1.Loading the dataset using Pandas and performed basic checks like the data type of each column and having any missing values.
 
 2.Performed Exploratory data analysis:
+
 -Visualized each predictor or independent feature with the target feature and found that there's a direct proportionality between cement and the target feature while there's an inverse proportionality between water and the target feature.
+
 -To get even more better insights, plotted both Pearson and Spearman correlations, which showed the same results as above.
+
 -the distribution of the target feature, expenses which was in Normal distribution with a very little right skewness.
+
 -Checked for the presence of outliers in all the columns
 
 3.Experimenting with various ML algorithms
 -First, tried with Linear regression models, ridge and lasso regression approached. Performance metrics are calculated for all the approaches. The test RMSE score is little bit lesser compared to other approaches. Then, performed a residual analysis and the model satisfied all the assumptions of linear regression.
+
 -Next, tried with various tree based models, performed hyper parameter tuning using the GridSearchCV and found the best hyperparameters for each model. Then, picked the top most features as per the feature importance by an each model. Models, evaluated on both the training and testing data and recorded the performance metrics.
+
 -Based on the performance metrics of both the linear and the tree based models, XGBoost regressor performed the best, followed by the random forest regressor. 4.Deployment: Deployed the XGBoost regressor model using Flask, which works in the backend part while for the frontend UI Web page, used HTML5.
+
 -At each step in both development and deployment parts, logging operation is performed which are stored in the Jupyter_Notebook_logs.log and app_deployment_logs.log files respectively
+
 
 So, now we can find the insurance premium quickly by just passing the mentioned details as an input to the web application 😊
 
